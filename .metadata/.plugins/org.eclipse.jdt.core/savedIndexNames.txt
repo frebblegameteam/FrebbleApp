@@ -1,0 +1,11 @@
+INDEX VERSION 1.127+C:\Users\xande_000\workspace\.metadata\.plugins\org.eclipse.jdt.core
+1284074322.index
+<<<<<<< HEAD
+<<<<<<< HEAD
+2040839406.index
+=======
+422516702.index
+>>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85
+=======
+422516702.index
+>>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85
