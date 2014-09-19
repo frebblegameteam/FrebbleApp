@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<qualifiedTypeNameHistroy/>
-=======
-=======
->>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.codename1.ui.Button"/>
-<fullyQualifiedTypeName name="com.codename1.ui.Dialog"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.R.string"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
 </qualifiedTypeNameHistroy>
-<<<<<<< HEAD
->>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85
-=======
->>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85

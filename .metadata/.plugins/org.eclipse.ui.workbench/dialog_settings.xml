@@ -12,19 +12,10 @@
 		<list key="textArray">
 		</list>
 	</section>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85
 	<section name="NewWizardAction">
-		<item value="codenameoneplugin.wizards.NewProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="com.android.ide.eclipse.editors.wizards.NewActivityWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="CodenameOnePlugin"/>
+			<item value="com.android.ide.eclipse.wizards.category"/>
 		</list>
 	</section>
-<<<<<<< HEAD
->>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85
-=======
->>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85
 </section>
