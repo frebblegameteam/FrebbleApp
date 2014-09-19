@@ -1,17 +1,17 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=c930f2b116863ca9bf765358b6fa910befef2f85
 eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=C\:/Users/xande_000/Downloads/eclipse-standard-luna-R-win32-x86_64/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jre1.8.0_20/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=C\:/Users/xande_000/Downloads/eclipse-standard-luna-R-win32-x86_64/eclipse/plugins/org.junit_4.11.0.v201303080030/
+org.eclipse.jdt.core.classpathVariable.JUNIT_SRC_HOME=C\:/Users/xande_000/Downloads/eclipse-standard-luna-R-win32-x86_64/eclipse/plugins/org.junit.source_4.11.0.v201303080030.jar
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
 org.eclipse.jdt.core.compiler.compliance=1.8
 org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
 org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
 org.eclipse.jdt.core.compiler.source=1.8
-<<<<<<< HEAD
->>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85
-=======
->>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85

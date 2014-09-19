@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">Frebble</string>
+
+    <string name="app_name">Frebble</string>
     <string name="action_settings">Settings</string>
     <string name="User">User</string>
     <string name="userHint">enter Username</string>
@@ -14,7 +15,15 @@
     <string name="emailHint">enter e-mail address</string>
     <string name="createAccText">Create Account</string>
     <string name="title_activity_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="connectInfo">Enter partner\'s ID or e-mail</string>
+    <string name="connectHint">ID or e-mail</string>
     <string name="OK">OK</string>
     <string name="Logout">Log out</string>
+    <string name="Cancel">Cancel</string>
+    <string name="title_activity_connect">Connect</string>
+    <string name="placeholderSettings">Settings</string>
+    <string name="placeholderConnect">Connect</string>
+    <string name="title_activity_home">Frebble</string>
+    <string name="homeInfo">tap "connect" button to start connecting</string>
+
 </resources>

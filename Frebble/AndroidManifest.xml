@@ -33,10 +33,22 @@
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".HomeActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.hollandhaptics.frebble.MainActivity" />
+                android:value="com.hollandhaptics.frebble.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ConnectActivity"
+            android:label="@string/title_activity_connect" 
+            android:parentActivityName=".HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hollandhaptics.frebble.HomeActivity"/>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" >
         </activity>
     </application>
 
