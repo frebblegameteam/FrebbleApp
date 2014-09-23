@@ -1,9 +1,11 @@
 package com.hollandhaptics.frebble;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class HomeActivity extends Activity {
 
@@ -21,14 +23,35 @@ public class HomeActivity extends Activity {
 	}
 
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
+	public boolean onOptionsItemSelected(MenuItem item) 
+	{
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
+		switch(item.getItemId())
+		{
+		case R.id.action_settings:
+			openSettingsActivity();
 			return true;
+		case R.id.action_connect:
+			openConnectActivity();
+			return true;
+		default:
+			return super .onOptionsItemSelected(item);
+			
 		}
-		return super.onOptionsItemSelected(item);
+		
+	}
+	
+	public void openSettingsActivity()
+	{
+		Intent intent = new Intent(this, SettingsActivity.class);
+    	startActivity(intent);
+	}
+	
+	public void openConnectActivity()
+	{
+		Intent intent = new Intent(this, ConnectActivity.class);
+    	startActivity(intent);
 	}
 }

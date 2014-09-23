@@ -10,8 +10,10 @@ import android.view.View;
 import android.widget.EditText;
 
 
-public class MainActivity extends ActionBarActivity {
-	
+public class MainActivity extends ActionBarActivity 
+{
+	public final static String EXTRA_USER = "com.hollandhaptics.frebble.USER";
+	public final static String EXTRA_PASS = "com.hollandhaptics.frebble.PASS";
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +38,25 @@ public class MainActivity extends ActionBarActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+    
+    public void loginEvent(View view)
+    {
+    	//placeholder code
+    	Intent intent = new Intent(this, HomeActivity.class);
+    	EditText userField = (EditText) findViewById(R.id.userField);
+    	EditText passwordField = (EditText) findViewById(R.id.passwordField);
+    	String username = userField.getText().toString();
+    	String password = passwordField.getText().toString();
+    	intent.putExtra(EXTRA_USER, username);
+    	intent.putExtra(EXTRA_PASS, password);
+    	startActivity(intent);
+    }
+    
+    public void signupEvent(View view)
+    {
+    	Intent intent = new Intent(this, SignUpActivity.class);
+    	startActivity(intent);
     }
     
    
