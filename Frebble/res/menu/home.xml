@@ -6,12 +6,14 @@
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:showAsAction="ifRoom"
-        android:title="@string/placeholderSettings"/>
+        android:title=""
+        android:icon="@drawable/tandwiel"/>
     
     <item
         android:id="@+id/action_connect"
         android:orderInCategory="100"
         android:showAsAction="ifRoom"
-        android:title="@string/placeholderConnect"/>
+        android:title=""
+        android:icon="@drawable/frebble_icons"/>
 
 </menu>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Frebble</string>
+    
     <string name="action_settings">Settings</string>
     <string name="User">User</string>
     <string name="userHint">enter Username</string>
@@ -24,6 +24,12 @@
     <string name="placeholderSettings">Settings</string>
     <string name="placeholderConnect">Connect</string>
     <string name="title_activity_home">Frebble</string>
-    <string name="homeInfo">tap "connect" button to start connecting</string>
+    <string name="homeInfo">tap to Frebble!</string>
+    <string name="frebbleInfo">where is your Frebble?</string>
+    <string name="arrowDesc">arrow</string>
+    <string name="balletjes">balletjes</string>
+    <string name="title_activity_notification_handler">NotificationHandler</string>
+    <string name="Scan">Scan</string>
+    
 
 </resources>

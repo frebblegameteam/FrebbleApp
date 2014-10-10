@@ -1,14 +1,21 @@
 package com.hollandhaptics.frebble;
 
 import android.app.Activity;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.TaskStackBuilder;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class HomeActivity extends Activity {
+public class HomeActivity extends Activity 
+{
 
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -42,6 +49,8 @@ public class HomeActivity extends Activity {
 		}
 		
 	}
+	
+	
 	
 	public void openSettingsActivity()
 	{

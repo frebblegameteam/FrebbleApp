@@ -3,6 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/balletjes" />
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin" >
     
@@ -48,16 +62,19 @@
         
     </LinearLayout>
     
-    <Button android:id="@+id/loginButton"
-        android:layout_below="@id/L01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+   <Button
+        android:id="@+id/loginButton"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/L01"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="loginEvent"
         android:text="@string/loginText"
-        android:onClick="loginEvent"/>
+        android:typeface="normal" />
     
-    <TextView android:id="@+id/noAccount"
+     <TextView android:id="@+id/noAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/loginButton"
@@ -65,12 +82,17 @@
         android:layout_marginTop="30dp"
         android:text="@string/noAccount"
         android:textSize="16sp"/>
-    
-    <Button android:id="@+id/signupButton"
+     
+     <Button
+        android:id="@+id/signupButton"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
         android:layout_below="@id/noAccount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/signupText"
-        android:onClick="signupEvent"/>  
+        android:background="@drawable/button"
+        android:onClick="signupEvent"
+        android:text="@string/signupText" />
+     
+    </RelativeLayout>
+  
 </RelativeLayout>

@@ -2,11 +2,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    tools:context="com.hollandhaptics.frebble.SignUpActivity" >
+    android:background="@drawable/background" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/balletjes" />
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        tools:context="com.hollandhaptics.frebble.SignUpActivity" >
 
-    <LinearLayout
+	<LinearLayout
         android:id="@+id/L00"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -68,12 +82,19 @@
         	android:hint="@string/emailHint"/>
         </LinearLayout>
         
-        <Button android:id="@+id/createAccButton"
-        android:layout_below="@id/L02"
-        android:layout_marginTop="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="@string/createAccText"/>
+        <Button
+            android:id="@+id/createAccButton"
+            android:layout_width="256dp"
+            android:layout_height="64dp"
+            android:layout_below="@id/L02"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:text="@string/createAccText" />
 
+	</RelativeLayout>
+
+    
+    
 </RelativeLayout>
+
