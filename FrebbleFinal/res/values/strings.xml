@@ -50,5 +50,18 @@
     <string name="title_activity_notification_handler">NotificationHandler</string>
     <string name="Scan">Scan</string>
     
-
+	 <string name="app_name">BRSP</string>
+    <string name="menu_action_scan">Scan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_action_exit">Exit</string>
+    <string name="msg_quit_title">Quit</string>
+    <string name="msg_quit_detail">Are you sure you want to close this application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="menu_action_connect">Connect</string>
+    <string name="btn_send">Send</string>
+    <string name="menu_action_clear_output">Clear output</string>
+    <string name="menu_action_version">App Version</string>
+    <string name="menu_main">Menu</string>
+    
 </resources>

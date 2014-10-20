@@ -62,6 +62,19 @@
        	<activity android:name="com.hollandhaptics.bluetoothapp.DeviceScanActivity"></activity>
         <activity android:name="com.hollandhaptics.bluetoothapp.DeviceControlActivity"></activity>
         <service android:name="com.hollandhaptics.bluetoothapp.BluetoothLeService" android:enabled="true"/>
+        
+        <activity
+            android:name="com.hollandhaptics.blueradio.ScanActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.hollandhaptics.blueradio.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        
     </application>
 
 </manifest>

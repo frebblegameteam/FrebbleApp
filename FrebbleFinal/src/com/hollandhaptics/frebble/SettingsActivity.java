@@ -1,6 +1,7 @@
 package com.hollandhaptics.frebble;
 
 import com.hollandhaptics.bluetoothapp.DeviceScanActivity;
+import com.hollandhaptics.blueradio.MainActivity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -41,7 +42,7 @@ public class SettingsActivity extends Activity {
 	}
 	
 	public void OpenScanActivity(){
-		Intent intent = new Intent(this, DeviceScanActivity.class);
+		Intent intent = new Intent(this, MainActivity.class);
     	startActivity(intent);
 	}
 }
