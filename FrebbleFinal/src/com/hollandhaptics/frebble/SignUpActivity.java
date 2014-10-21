@@ -1,7 +1,12 @@
 package com.hollandhaptics.frebble;
 
+<<<<<<< HEAD
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+=======
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
 import android.view.Menu;
 import android.view.MenuItem;
 

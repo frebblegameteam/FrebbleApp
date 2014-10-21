@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin" >
+<<<<<<< HEAD
 
     <Button
         android:id="@+id/Google_btn_land"
@@ -48,6 +49,9 @@
 
 
   <!--  SAME AS VERTICAL SCREEN TAKEN AWAY BUTTONS AND TEXTFIELD MAYBE OF SOME USE LATER.
+=======
+    
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
     <LinearLayout
         android:id="@+id/L00"
         android:layout_width="match_parent"
@@ -55,7 +59,10 @@
         android:layout_marginTop="50dp"
         android:orientation="horizontal">
 
+<<<<<<< HEAD
         
+=======
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
     	<TextView android:layout_width="0dp"
        		android:layout_weight="1"
         	android:layout_height="wrap_content"
@@ -67,7 +74,10 @@
         	android:layout_weight="3"
         	android:layout_height="wrap_content"
         	android:hint="@string/userHint"/>
+<<<<<<< HEAD
         
+=======
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
     </LinearLayout>
     
     <LinearLayout android:id="@+id/L01" 
@@ -76,7 +86,11 @@
         android:layout_below="@id/L00"
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
+<<<<<<< HEAD
     	 
+=======
+    	
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
         <TextView android:layout_width="0dp"
             android:layout_weight="1"
         	android:layout_height="wrap_content"
@@ -97,7 +111,11 @@
         android:layout_below="@id/L01"
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
+<<<<<<< HEAD
          
+=======
+        
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
     	<Button android:id="@+id/loginButton"
         	android:layout_width="0dp"
         	android:layout_weight="1"
@@ -118,6 +136,11 @@
         	android:layout_height="wrap_content"
         	android:text="@string/signupText"
         	android:onClick="signupEvent"/>
+<<<<<<< HEAD
         	
         	
     </LinearLayout>  -->
+=======
+    </LinearLayout>  
+</RelativeLayout>
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602

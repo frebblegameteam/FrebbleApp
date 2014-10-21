@@ -2,5 +2,60 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.hollandhaptics.frebble.MainActivity" >
+<<<<<<< HEAD
 
+=======
+	
+   
+    <item android:id="@+id/menu_scan"
+          android:title="@string/menu_scan"
+          android:orderInCategory="100"
+          android:showAsAction="ifRoom|withText"/>
+    
+    
+    <item
+        android:id="@+id/menu_action_connect_status"
+        android:icon="@drawable/connect"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_action_connect">
+    </item>
+    <item
+        android:id="@+id/main_menu"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_main"
+        android:visible="true" 
+        android:orderInCategory="105">
+        <menu>
+            <item
+                android:id="@+id/menu_action_connect"
+                android:orderInCategory="106"
+                android:title="@string/menu_action_connect"
+                android:visible="false">
+            </item>
+            <item
+                android:id="@+id/menu_action_scan"
+                android:orderInCategory="110"
+                android:title="@string/menu_action_scan">
+            </item>
+            <item
+                android:id="@+id/menu_action_clear_output"
+                android:orderInCategory="120"
+                android:title="@string/menu_action_clear_output">
+            </item>
+            <item
+                android:id="@+id/menu_action_brspmode"
+                android:orderInCategory="130"
+                android:visible="false">
+            </item>
+            <item
+                android:id="@+id/menu_action_exit"
+                android:orderInCategory="1000"
+                android:showAsAction="never"
+                android:title="@string/menu_action_exit">
+            </item>
+        </menu>
+    </item>
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
 </menu>

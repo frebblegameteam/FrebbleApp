@@ -1,5 +1,6 @@
 package com.hollandhaptics.frebble;
 
+<<<<<<< HEAD
 import com.google.example.games.basegameutils.BaseGameActivity;
 import com.microsoft.windowsazure.mobileservices.*;
 import android.app.Activity;
@@ -15,6 +16,15 @@ import android.view.MenuItem;
 import android.view.View;
 
 public class HomeActivity extends Activity
+=======
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class HomeActivity extends Activity 
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
 {
 
 	
@@ -22,6 +32,7 @@ public class HomeActivity extends Activity
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
+<<<<<<< HEAD
 		
 		
 		
@@ -31,6 +42,9 @@ public class HomeActivity extends Activity
 	
 	
 	
+=======
+	}
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -60,7 +74,11 @@ public class HomeActivity extends Activity
 		
 	}
 	
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
 	
 	public void openSettingsActivity()
 	{
@@ -73,6 +91,9 @@ public class HomeActivity extends Activity
 		Intent intent = new Intent(this, ConnectActivity.class);
     	startActivity(intent);
 	}
+<<<<<<< HEAD
 	
 
+=======
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
 }

@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+build.classes.dir=${build.dir}/
+# This directory is removed when the project is cleaned:
+build.dir=bin
+# Only compile against the classpath explicitly listed here:
+dist.dir=dist
+dist.jar=${dist.dir}/Helloworld.jar
+build.test.classes.dir=${build.dir}/test/classes
+build.test.results.dir=${build.dir}/test/results
+test.src.dir=test
+javac.test.classpath=./JavaSE.jar:\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+=======
+build.classes.dir=${build.dir}/
+# This directory is removed when the project is cleaned:
+build.dir=bin
+# Only compile against the classpath explicitly listed here:
+dist.dir=dist
+dist.jar=${dist.dir}/Helloworld.jar
+build.test.classes.dir=${build.dir}/test/classes
+build.test.results.dir=${build.dir}/test/results
+test.src.dir=test
+javac.test.classpath=./JavaSE.jar:\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+>>>>>>> c930f2b116863ca9bf765358b6fa910befef2f85
