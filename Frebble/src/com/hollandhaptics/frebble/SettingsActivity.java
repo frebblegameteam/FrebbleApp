@@ -2,6 +2,7 @@ package com.hollandhaptics.frebble;
 
 import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,6 +25,18 @@ public class SettingsActivity extends BaseGameActivity implements View.OnClickLi
 		findViewById(R.id.logoutButton).setOnClickListener(this);
 		
 		
+=======
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class SettingsActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_settings);
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 	}
 
 	@Override
@@ -44,6 +57,7 @@ public class SettingsActivity extends BaseGameActivity implements View.OnClickLi
 		}
 		return super.onOptionsItemSelected(item);
 	}
+<<<<<<< HEAD
 
 	
 
@@ -81,3 +95,6 @@ public class SettingsActivity extends BaseGameActivity implements View.OnClickLi
 /*
  * 
  * */
+=======
+}
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e

@@ -30,7 +30,10 @@
     <string name="balletjes">balletjes</string>
     <string name="title_activity_notification_handler">NotificationHandler</string>
     <string name="Scan">Scan</string>
+<<<<<<< HEAD
     <string name="app_id">992742234833</string>
+=======
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
     
 
 </resources>

@@ -1,7 +1,10 @@
 package com.hollandhaptics.frebble;
 
+<<<<<<< HEAD
 import com.google.example.games.basegameutils.BaseGameActivity;
 import com.microsoft.windowsazure.mobileservices.*;
+=======
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 import android.app.Activity;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -14,7 +17,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+<<<<<<< HEAD
 public class HomeActivity extends Activity
+=======
+public class HomeActivity extends Activity 
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 {
 
 	
@@ -22,6 +29,7 @@ public class HomeActivity extends Activity
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
+<<<<<<< HEAD
 		
 		
 		
@@ -31,6 +39,9 @@ public class HomeActivity extends Activity
 	
 	
 	
+=======
+	}
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -60,7 +71,11 @@ public class HomeActivity extends Activity
 		
 	}
 	
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 	
 	public void openSettingsActivity()
 	{
@@ -73,6 +88,9 @@ public class HomeActivity extends Activity
 		Intent intent = new Intent(this, ConnectActivity.class);
     	startActivity(intent);
 	}
+<<<<<<< HEAD
 	
 
+=======
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 }

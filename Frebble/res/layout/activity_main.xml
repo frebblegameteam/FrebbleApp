@@ -12,6 +12,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:adjustViewBounds="true"
+<<<<<<< HEAD
         android:src="@drawable/balletjes"
         />
 
@@ -35,6 +36,10 @@
 
 
 <!--  CUSTOM LOGIN BUTTONS AND TEXTFIELDS COMMENTED OUT MAYBE OF USE LATER
+=======
+        android:src="@drawable/balletjes" />
+
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 <RelativeLayout 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -114,4 +119,10 @@
         android:onClick="signupEvent"
         android:text="@string/signupText" />
      
+<<<<<<< HEAD
     </RelativeLayout>-->
+=======
+    </RelativeLayout>
+  
+</RelativeLayout>
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e

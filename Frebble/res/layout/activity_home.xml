@@ -45,9 +45,12 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="5dp"
             android:src="@drawable/arrow" />
+<<<<<<< HEAD
           
       
           
+=======
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 
     </RelativeLayout>
 

@@ -18,6 +18,7 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+<<<<<<< HEAD
 
 -keep class * extends java.util.ListResourceBundle {
     protected Object[][] getContents();
@@ -35,3 +36,5 @@
 -keepnames class * implements android.os.Parcelable {
     public static final ** CREATOR;
 }
+=======
+>>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
