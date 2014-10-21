@@ -25,6 +25,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -44,6 +45,9 @@ public class MainActivity extends Activity {
     private Brsp _brsp;
     private BluetoothDevice _selectedDevice;
 
+    private Button testbutton;
+    private Button stopbutton;
+    
     private AlertDialog confirm;
     private EditText _txtCommand;
     private TextView _textViewOutput;
@@ -172,6 +176,18 @@ public class MainActivity extends Activity {
 	_txtCommand = (EditText) findViewById(R.id.editTextCommand);
 	_textViewOutput = (TextView) findViewById(R.id.textViewOutput);
 	_scrollView = (ScrollView) findViewById(R.id.scrollView);
+	
+	stopbutton = (Button)findViewById(R.id.StopButton);
+	
+	stopbutton.setOnClickListener(new View.OnClickListener() {
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			String StringValueStop = "f6.5\r\n";
+			_brsp.writeBytes(StringValueStop.getBytes());
+		}
+	});
+	
 	_textViewOutput.setOnClickListener(new View.OnClickListener() {
 	    @Override
 	    public void onClick(View v) {
@@ -198,7 +214,7 @@ public class MainActivity extends Activity {
     private boolean onEnterClicked(Editable s) {
 	if (_brsp.getBrspState() == Brsp.BRSP_STATE_READY) {
 	    if (s.length() > 0) {
-		String commandString = s.append("\r").toString();
+		String commandString = s.append("\r\n").toString();
 		_brsp.writeBytes(commandString.getBytes());
 		TextKeyListener.clear(_txtCommand.getText());
 		return true; // Keep keyboard visible

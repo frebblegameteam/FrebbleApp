@@ -194,8 +194,6 @@ public class ScanActivity extends Activity {
 	}
     }
     
-    
-
     private void stopDiscovery() {
 	_bluetoothAdapter.stopLeScan(mLeScanCallback);
     }
