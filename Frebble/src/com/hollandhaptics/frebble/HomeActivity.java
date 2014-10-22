@@ -1,10 +1,8 @@
 package com.hollandhaptics.frebble;
 
-<<<<<<< HEAD
+
 import com.google.example.games.basegameutils.BaseGameActivity;
 import com.microsoft.windowsazure.mobileservices.*;
-=======
->>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 import android.app.Activity;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -17,39 +15,20 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-<<<<<<< HEAD
 public class HomeActivity extends Activity
-=======
-public class HomeActivity extends Activity 
->>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 {
-
-	
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState) 
+	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
-<<<<<<< HEAD
-		
-		
-		
-		
 	}
-	
-	
-	
-	
-=======
-	}
->>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
-
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.home, menu);
 		return true;
 	}
-
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) 
 	{
@@ -70,13 +49,6 @@ public class HomeActivity extends Activity
 		}
 		
 	}
-	
-<<<<<<< HEAD
-
-=======
-	
->>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
-	
 	public void openSettingsActivity()
 	{
 		Intent intent = new Intent(this, SettingsActivity.class);
@@ -88,9 +60,4 @@ public class HomeActivity extends Activity
 		Intent intent = new Intent(this, ConnectActivity.class);
     	startActivity(intent);
 	}
-<<<<<<< HEAD
-	
-
-=======
->>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 }

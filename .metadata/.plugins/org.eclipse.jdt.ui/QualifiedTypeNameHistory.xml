@@ -8,4 +8,6 @@
 <fullyQualifiedTypeName name="android.widget.Button"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="com.google.example.games.basegameutils.GameHelper"/>
+<fullyQualifiedTypeName name="com.hollandhaptics.frebble.R.layout"/>
+<fullyQualifiedTypeName name="com.hollandhaptics.frebble.R"/>
 </qualifiedTypeNameHistroy>

@@ -1,8 +1,10 @@
 package com.hollandhaptics.frebble;
 
+
 import android.support.v7.app.ActionBarActivity;
+import com.hollandhaptics.bluetoothapp.DeviceScanActivity;
+
 import android.app.Activity;
-<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -15,7 +17,8 @@ import com.google.example.games.basegameutils.BaseGameActivity;
 
 
 
-public class SettingsActivity extends BaseGameActivity implements View.OnClickListener{
+public class SettingsActivity extends BaseGameActivity implements View.OnClickListener
+{
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) 
@@ -23,31 +26,19 @@ public class SettingsActivity extends BaseGameActivity implements View.OnClickLi
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_settings);
 		findViewById(R.id.logoutButton).setOnClickListener(this);
-		
-		
-=======
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-
-public class SettingsActivity extends Activity {
-
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_settings);
->>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
 	}
 
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
+	public boolean onCreateOptionsMenu(Menu menu) 
+	{
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.settings, menu);
 		return true;
 	}
 
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
+	public boolean onOptionsItemSelected(MenuItem item) 
+	{
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
@@ -55,15 +46,20 @@ public class SettingsActivity extends Activity {
 		if (id == R.id.action_settings) {
 			return true;
 		}
+		if(id == R.id.action_scan){
+			OpenScanActivity();
+			return true;
+		}
 		return super.onOptionsItemSelected(item);
 	}
-<<<<<<< HEAD
 
 	
 
 	@Override
-	public void onClick(View v) {
-		if (v.getId() == R.id.logoutButton) {
+	public void onClick(View v) 
+	{
+		if (v.getId() == R.id.logoutButton) 
+		{
 			if(isSignedIn())
 			{
 				
@@ -86,15 +82,15 @@ public class SettingsActivity extends Activity {
 	}
 
 	@Override
-	public void onSignInFailed() {
-		
+	public void onSignInFailed() 
+	{
 		findViewById(R.id.logoutButton).setVisibility(View.GONE);
+	}
+	
+	public void OpenScanActivity()
+	{
+		Intent intent = new Intent(this, com.hollandhaptics.blueradio.MainActivity.class);
+    	startActivity(intent);
 	}
 }
 
-/*
- * 
- * */
-=======
-}
->>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e

@@ -95,12 +95,12 @@
 		    android:layout_height="wrap_content"
 		    android:layout_weight="1"
 		    android:background="@drawable/button"
-<<<<<<< HEAD
+
 		    android:text="@string/Logout" 
 		    android:visibility="gone"/>
-=======
+
 		    android:text="@string/Logout" />
->>>>>>> 47333ae7966d262d1e65d7c281eb5c6cd7ee268e
+
 		
 	</LinearLayout>
 	
