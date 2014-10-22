@@ -177,14 +177,25 @@ public class MainActivity extends Activity {
 	_textViewOutput = (TextView) findViewById(R.id.textViewOutput);
 	_scrollView = (ScrollView) findViewById(R.id.scrollView);
 	
-	stopbutton = (Button)findViewById(R.id.StopButton);
+	testbutton = (Button)findViewById(R.id.TestButton);
 	
+	stopbutton = (Button)findViewById(R.id.StopButton);
 	stopbutton.setOnClickListener(new View.OnClickListener() {
 		@Override
 		public void onClick(View v) {
-			// TODO Auto-generated method stub
-			String StringValueStop = "f6.5\r\n";
+			if (_brsp.getBrspState() == Brsp.BRSP_STATE_READY) {
+			String StringValueStop = "f 0,0\r\n";
 			_brsp.writeBytes(StringValueStop.getBytes());
+			}
+		}
+	});
+	
+	testbutton.setOnClickListener(new View.OnClickListener() {
+		@Override
+		public void onClick(View v) {
+			if (_brsp.getBrspState() == Brsp.BRSP_STATE_READY) {
+			String StringValueStop = "f 65000,65000\r\n";
+			_brsp.writeBytes(StringValueStop.getBytes());}
 		}
 	});
 	
