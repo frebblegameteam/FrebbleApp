@@ -95,7 +95,12 @@
 		    android:layout_height="wrap_content"
 		    android:layout_weight="1"
 		    android:background="@drawable/button"
+<<<<<<< HEAD
+		    android:text="@string/Logout" 
+		    android:visibility="gone"/>
+=======
 		    android:text="@string/Logout" />
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
 		
 	</LinearLayout>
 	

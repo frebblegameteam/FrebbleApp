@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <Button
+        android:id="@+id/Google_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Google" />
+
+    <Button
+        android:id="@+id/Facebook1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Google_btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Facebook" />
+
+    <Button
+        android:id="@+id/Twitter_btn_land"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/Google_btn1"
+        android:layout_below="@+id/Facebook1"
+        android:layout_marginTop="15dp"
+        android:text="Twitter" />
+
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Facebook1"
+        android:layout_centerHorizontal="true" />
+  
+</RelativeLayout>
+
+
+
+
+
+  <!--  SAME AS VERTICAL SCREEN TAKEN AWAY BUTTONS AND TEXTFIELD MAYBE OF SOME USE LATER.
+    <LinearLayout
+        android:id="@+id/L00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        
+    	<TextView android:layout_width="0dp"
+       		android:layout_weight="1"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:text="@string/User"/>
+    
+    	<EditText android:id="@+id/userField"
+    	    android:layout_width="0dp"
+        	android:layout_weight="3"
+        	android:layout_height="wrap_content"
+        	android:hint="@string/userHint"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/L01" 
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_below="@id/L00"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+    	 
+        <TextView android:layout_width="0dp"
+            android:layout_weight="1"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:text="@string/Password"/>
+        
+        <EditText android:id="@+id/passwordField"
+            android:inputType="textPassword"
+            android:layout_width="0dp"
+        	android:layout_weight="3"
+        	android:layout_height="wrap_content"
+        	android:hint="@string/passwordHint"/>
+        
+    </LinearLayout>
+    <LinearLayout android:id="@+id/L02" 
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_below="@id/L01"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+         
+    	<Button android:id="@+id/loginButton"
+        	android:layout_width="0dp"
+        	android:layout_weight="1"
+        	android:layout_height="wrap_content"
+        	android:text="@string/loginText"
+        	android:onClick="loginEvent"/>
+    
+    	<TextView android:id="@+id/noAccount"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginStart="20dp"
+        	android:text="@string/noAccount"
+        	android:textSize="16sp"/>
+    
+    	<Button android:id="@+id/signupButton"
+    	    android:layout_weight="1"
+        	android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:text="@string/signupText"
+        	android:onClick="signupEvent"/>
+        	
+        	
+    </LinearLayout>  -->

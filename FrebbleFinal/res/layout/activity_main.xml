@@ -12,8 +12,34 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:adjustViewBounds="true"
+<<<<<<< HEAD
+        android:src="@drawable/balletjes"
+        />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+    </com.google.android.gms.common.SignInButton>
+    
+   
+    
+    
+   
+    
+  
+</RelativeLayout>
+
+
+
+
+<!--  CUSTOM LOGIN BUTTONS AND TEXTFIELDS COMMENTED OUT MAYBE OF USE LATER
+=======
         android:src="@drawable/balletjes" />
 
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
 <RelativeLayout 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -93,6 +119,10 @@
         android:onClick="signupEvent"
         android:text="@string/signupText" />
      
+<<<<<<< HEAD
+    </RelativeLayout>-->
+=======
     </RelativeLayout>
   
 </RelativeLayout>
+>>>>>>> ff606bd689d4e4d94d62285fff620e022b5be602
